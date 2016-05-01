@@ -11,9 +11,10 @@ categories:
   - post
   - highlight
 ---
-Many API&#8217;s produced call themselves **RESTful**, but barely cover any of the core principles of REST. REST is a standard you can choose to follow, and many (but not all) will help you to build an API that is efficient, easy to use and highly understandable. Here I highlight all the core principles, and how using them can help you to build an excellent API, which is a rare thing indeed.
 
-<a href="http://mark-kirby.co.uk/2013/principles-of-a-true-rest-api/image_print/" rel="attachment wp-att-1151"><img class="alignnone size-full wp-image-1151" alt="image_print" src="http://mark-kirby.co.uk/wp-content/uploads/2013/01/image_print.jpeg" width="400" height="388" /></a>
+Many API's produced call themselves **RESTful**, but barely cover any of the core principles of REST. REST is a standard you can choose to follow, and many (but not all) will help you to build an API that is efficient, easy to use and highly understandable. Here I highlight all the core principles, and how using them can help you to build an excellent API, which is a rare thing indeed.
+
+
 
 ## Why bother
 
@@ -24,11 +25,11 @@ It is likely **you will also be creating the clients** (for example, you may be 
 Following these standards means:
 
   * Documentation will make more sense and so developers will **understand your API quicker**
-  * Developers who have used other REST API&#8217;s will **already understand** how to use yours
+  * Developers who have used other REST API's will **already understand** how to use yours
   * Developers will therefore be able to integrate quicker and therefore **deliver products faster and at lower cost**
   * The API will handle common issues out of the box so clients should contain **less bugs**
   * Many of the principles will make your clients faster, **improving product quality**
-  * These principles help to ensure as much as possible is managed by the server, so you **don&#8217;t have to repeat as much code** in each client
+  * These principles help to ensure as much as possible is managed by the server, so you **don't have to repeat as much code** in each client
 
 ## Create a uniform interface by mapping HTTP methods to CRUD
 
@@ -43,19 +44,19 @@ HTTP methods = POST, GET, PUT, DELETE
 
 So instead of API calls such as:
 
-  * Create &#8211; GET: /user/new?name=Mark
-  * Read &#8211; GET: /user/1
-  * Update &#8211; GET: /user/1/update?name=John
-  * Delete &#8211; GET: /user/1/delete
+  * Create - GET: /user/new?name=Mark
+  * Read - GET: /user/1
+  * Update - GET: /user/1/update?name=John
+  * Delete - GET: /user/1/delete
 
 Simply:
 
-  * Create &#8211; POST: /user (with the variables in the entity-body)
-  * Read &#8211; GET: /user/1
-  * Update &#8211; PUT: /user/1 (with the variables in the entity-body)
-  * Delete &#8211; DELETE: /user/1
+  * Create - POST: /user (with the variables in the entity-body)
+  * Read - GET: /user/1
+  * Update - PUT: /user/1 (with the variables in the entity-body)
+  * Delete - DELETE: /user/1
 
-See [IBM &#8211; RESTful Web Services: The Basics][1] for more justifications on this.
+See [IBM - RESTful Web Services: The Basics][1] for more justifications on this.
 
 Following this means everyone can understand how to use your API in a common way and **keeps the API simple**.
 
@@ -70,7 +71,7 @@ Consider the following:
 
 POST, GET, PUT, DELETE are the methods
 
-http:/test.com/user, http:/test.com/user/1 are URI&#8217;s
+http:/test.com/user, http:/test.com/user/1 are URI's
 
 **user/1 **is a user, which is a resource
 
@@ -89,7 +90,7 @@ A representation will have a format (XML, JSON , XHTML etc), and a language.
 
 The resource names **should often** map conceptual domain entities. They should map to objects, not actions on the objects.
 
-If you want to **declare a user as a subscriber**, you **don&#8217;t need to add a resource called subscribe**. Just pass the following representation:
+If you want to **declare a user as a subscriber**, you **don't need to add a resource called subscribe**. Just pass the following representation:
 
   * name: mark
   * city: brighton
@@ -108,7 +109,7 @@ There should be URI mapping to each representation of the resource
   * test.com/user.xml maps to the xml representation of the user
   * test.com/user.json maps to the json representation of the user
 
-This enables URI&#8217;s to be shared in a consistent way, which **keeps things simple**.
+This enables URI's to be shared in a consistent way, which **keeps things simple**.
 
 ## Name resources and representations carefully
 
@@ -116,19 +117,19 @@ Follow simple rules for naming resources. I recommend:
 
 Use forward slashes to show child objects, with a resource for each item.
 
-  * /events &#8211; exposes all events
-  * /events/concerts &#8211; exposes all concerts
-  * /events/concerts/1 &#8211; exposes concert with id of 1
+  * /events - exposes all events
+  * /events/concerts - exposes all concerts
+  * /events/concerts/1 - exposes concert with id of 1
 
 Use semi-colons where there is no obvious sequence:
 
-  * /events/locations/the-concorde-2;the-brighton-dome &#8211; is a search for 2 event locations
+  * /events/locations/the-concorde-2;the-brighton-dome - is a search for 2 event locations
 
-Use comma&#8217;s when the order matters but they are not child items:
+Use comma's when the order matters but they are not child items:
 
-  * <span style="line-height: 13px;">/events/locations/25.9,22.5 &#8211; is a lat/long search</span>
+  * /events/locations/25.9,22.5 - is a lat/long search
 
-This keeps API&#8217;s consistent, making it **easier to interact with them**.
+This keeps API's consistent, making it **easier to interact with them**.
 
 ## Use POST for creating, not editing
 
@@ -146,7 +147,7 @@ I recommend keeping things simple, and refusing to update.
 
 ## Consider the use of overloaded POST only to handle situations where PUT and DELETE are unavailable
 
-If you want to allow your API to support clients without PUT and DELETE (in reality a rare situation these days), use overloaded POST. A true REST API wouldn&#8217;t do this, but sometimes you need to be flexible.
+If you want to allow your API to support clients without PUT and DELETE (in reality a rare situation these days), use overloaded POST. A true REST API wouldn't do this, but sometimes you need to be flexible.
 
 One way of doing this is to define in the API the actual call you want to use to replace POST:
 
@@ -165,7 +166,7 @@ It is possible a web crawler or browser call could delete your data.
 
 ## Allow for multiple identical PUT or DELETE requests, without side effects
 
-If you are updating the price of a widget in a PUT request, don&#8217;t allow anything like:
+If you are updating the price of a widget in a PUT request, don't allow anything like:
 
   * price: +1
   * price: -2
@@ -180,73 +181,73 @@ In the second, the price would always remain at 3.99, there would be no ill effe
 
 ## Use HTTP Response Codes
 
-HTTP provides response codes to inform clients of the status of their request. **Use them! **Don&#8217;t just return a 200 response with an error description if something is wrong.
+HTTP provides response codes to inform clients of the status of their request. **Use them! **Don't just return a 200 response with an error description if something is wrong.
 
 These are the main ones used:
 
-### 2xx &#8211; Success codes
+### 2xx - Success codes
 
-  * **200 &#8211; OK**, all is fine. *Entity-body *contains the resource requested in its current state
-  * **201 &#8211; Created**, a new resource has been created. *Location* header contains the address of the new resource. *Entity-body* contains the representation of the new resource as it is on the server
-  * **202 &#8211; Accepted**, a clients request is pending and will be completed later. *Location* header contains the expected address of the new resource so it can be checked later.
+  * **200 - OK**, all is fine. *Entity-body *contains the resource requested in its current state
+  * **201 - Created**, a new resource has been created. *Location* header contains the address of the new resource. *Entity-body* contains the representation of the new resource as it is on the server
+  * **202 - Accepted**, a clients request is pending and will be completed later. *Location* header contains the expected address of the new resource so it can be checked later.
 
-### 3xx &#8211; Redirection codes
+### 3xx - Redirection codes
 
-  * **301 &#8211; Moved Permanently**, the API has moved a resource in response to the request, or an old resource is requested. *Location* contains the new URI.
-  * **304 &#8211; Not Modified**, the client already has this data, used when the client provided a *If-Modified-Since* header and the data hasn&#8217;t been modified. *Date *header is required, *ETag* and *Content-Location* should be same as a 200, *Expires, Cache-Control* and *Vary* are required if they&#8217;ve changed since last sent.
+  * **301 - Moved Permanently**, the API has moved a resource in response to the request, or an old resource is requested. *Location* contains the new URI.
+  * **304 - Not Modified**, the client already has this data, used when the client provided a *If-Modified-Since* header and the data hasn't been modified. *Date *header is required, *ETag* and *Content-Location* should be same as a 200, *Expires, Cache-Control* and *Vary* are required if they've changed since last sent.
 
-### 4xx &#8211; Client side error
+### 4xx - Client side error
 
-  * **400 &#8211; Bad Request**, there is a client-side problem, the document in the entity-body should contain more info on the problem
-  * **401 &#8211; Unauthorized**, wrong credentials provided, or no credentials provided. *WWW-Authenticate* header should describe the authentication methods accepted. *Entity-body* could contain more details about the error.
-  * **404 &#8211; Not Found**, no resource matches the requested URI, there is no reference to it on the server
-  * **409 &#8211; Conflict**, client attempted to do something which would leave a resource in an inconsistent state, such as create a user with an already taken name. *Location *could point to the source of the conflict. *Entity-body* to describe the conflict.
-  * **412 &#8211; Precondition failed**, client wanted to modify a resource using a If-Unmodified-Since/If-Match header, the resource had been modified by someone else.
+  * **400 - Bad Request**, there is a client-side problem, the document in the entity-body should contain more info on the problem
+  * **401 - Unauthorized**, wrong credentials provided, or no credentials provided. *WWW-Authenticate* header should describe the authentication methods accepted. *Entity-body* could contain more details about the error.
+  * **404 - Not Found**, no resource matches the requested URI, there is no reference to it on the server
+  * **409 - Conflict**, client attempted to do something which would leave a resource in an inconsistent state, such as create a user with an already taken name. *Location *could point to the source of the conflict. *Entity-body* to describe the conflict.
+  * **412 - Precondition failed**, client wanted to modify a resource using a If-Unmodified-Since/If-Match header, the resource had been modified by someone else.
 
-### 5xx &#8211; Server side error
+### 5xx - Server side error
 
-  * **500 &#8211; Internal Server Error**, there is an error on the server
+  * **500 - Internal Server Error**, there is an error on the server
 
 More codes can be found in the [HTTP/1.1 Status Code Definitions guide][2]
 
 ## Handle and use meta-data in HTTP Headers
 
-Implementing these will make your API more flexible and keep information in standard locations rather than URI&#8217;s.
+Implementing these will make your API more flexible and keep information in standard locations rather than URI's.
 
 These are common request headers (from client to server)
 
-  * [Accept-Encoding][3] &#8211; asks the server to use compression of responses
-  * [Authorization][4] &#8211; enables authentication via any method
-  * [Host][5] &#8211; **required** &#8211; domain name of the URI, e.g. www.test.com
-  * [If-Match][6] &#8211; value of a previous calls ETag response used with a PUT or DELETE. Server should only act if nobody else has modified the resource since you last fetched it. Otherwise provides a 412.
-  * [If-Modified-Since][7] &#8211; value of a previous Last-Modified response used with a GET. Server should only provide a response if the resource was modified since the timestamp submitted. Use in conjunction with If-None-Match in case the change occurred within the same second. Otherwise provide a 304.
-  * [If-None-Match][7] &#8211; value of a previous calls ETag response used with a GET. Server should only provide a response if the ETag doesn&#8217;t match, i.e. the resource has been altered. Otherwise provide a 304.
-  * [If-Unmodified-Since][8] &#8211; value of a previous Last-Modified response used with a PUT or DELETE. Server should only act if nobody else has modified the resource since you last fetched it. Otherwise provides a 412.
-  * [User-Agent][9] &#8211; information on your client, useful for gathering statistics
+  * [Accept-Encoding][3] - asks the server to use compression of responses
+  * [Authorization][4] - enables authentication via any method
+  * [Host][5] - **required** - domain name of the URI, e.g. www.test.com
+  * [If-Match][6] - value of a previous calls ETag response used with a PUT or DELETE. Server should only act if nobody else has modified the resource since you last fetched it. Otherwise provides a 412.
+  * [If-Modified-Since][7] - value of a previous Last-Modified response used with a GET. Server should only provide a response if the resource was modified since the timestamp submitted. Use in conjunction with If-None-Match in case the change occurred within the same second. Otherwise provide a 304.
+  * [If-None-Match][7] - value of a previous calls ETag response used with a GET. Server should only provide a response if the ETag doesn't match, i.e. the resource has been altered. Otherwise provide a 304.
+  * [If-Unmodified-Since][8] - value of a previous Last-Modified response used with a PUT or DELETE. Server should only act if nobody else has modified the resource since you last fetched it. Otherwise provides a 412.
+  * [User-Agent][9] - information on your client, useful for gathering statistics
 
 These are common response headers (from server to client)
 
-  * [Content-Encoding][10] &#8211; tells the client what compression is being used
-  * [Content-Length][11] &#8211; tells the client how many bytes the content body contains
-  * [Content-Type][12] &#8211; tells the client the media type the entity-body is, e.g. text/html
-  * [ETag][13] &#8211; a string representing a version of a representation of a resource, useful in detecting if a resource has changed with If-Match or If-None-Match
-  * [Last-Modified][14] &#8211; the **time the representation changed**, useful in detecting if a resource has changed with If-Modified-Since and If-Unmodified-Since
-  * [Location][15] &#8211; URI relating to the request, varies according to the HTTP status
-  * [WWW-Authenticate][16] &#8211; tells the client the expected authentication type when responding with a 401
+  * [Content-Encoding][10] - tells the client what compression is being used
+  * [Content-Length][11] - tells the client how many bytes the content body contains
+  * [Content-Type][12] - tells the client the media type the entity-body is, e.g. text/html
+  * [ETag][13] - a string representing a version of a representation of a resource, useful in detecting if a resource has changed with If-Match or If-None-Match
+  * [Last-Modified][14] - the **time the representation changed**, useful in detecting if a resource has changed with If-Modified-Since and If-Unmodified-Since
+  * [Location][15] - URI relating to the request, varies according to the HTTP status
+  * [WWW-Authenticate][16] - tells the client the expected authentication type when responding with a 401
 
 These are common request and response headers (bi-directional)
 
-  * [Date][17] &#8211; time on the client the request was made, time on the server request was responded too. The server must provide this unless is is responding with a 100, 101, 500, 503
+  * [Date][17] - time on the client the request was made, time on the server request was responded too. The server must provide this unless is is responding with a 100, 101, 500, 503
 
-## REST is stateless &#8211; so don&#8217;t handle state in your API
+## REST is stateless - so don't handle state in your API
 
-REST API&#8217;s must be stateless. Every call requiring authentication should provide the authentication and never a session key.
+REST API's must be stateless. Every call requiring authentication should provide the authentication and never a session key.
 
 When you attempt to handle state in your API you create a nightmare of sessions and session handling on the API side, and create lots of repetitive work for each service connecting to your API who has to potentially always handle the case where the session has expired. **Handling state will slow down your API** and all clients using it.
 
-Stateless API&#8217;s are **easier to scale**, **more reliable **and **simpler to use**.
+Stateless API's are **easier to scale**, **more reliable **and **simpler to use**.
 
-## REST is cacheable 1 &#8211; allow clients to GET only updated resources via HTTP
+## REST is cacheable 1 - allow clients to GET only updated resources via HTTP
 
 If your clients are repeatedly requesting the same data you are **unnecessarily slowing all applications down**, increasing bandwidth from the server to the clients and wasting computation power. Instead, use HTTP to handle this.
 
@@ -266,9 +267,9 @@ There is a risk here where more than one person can update data, that the data u
 
 However, ETags are more costly to generate than Last-Modified, and should be considered carefully.
 
-## REST is cacheable 2 &#8211; prevent accidental simultaneous updates of the same resource via HTTP
+## REST is cacheable 2 - prevent accidental simultaneous updates of the same resource via HTTP
 
-A common issue when more than one client can access the same resource is having one client do an update, and then another client overwrite that update because they didn&#8217;t know it had occurred.
+A common issue when more than one client can access the same resource is having one client do an update, and then another client overwrite that update because they didn't know it had occurred.
 
 ### The basic way with Last-Modified
 
@@ -290,55 +291,55 @@ The HEAD method for an resource should return a meta-data only representation of
 
 *HEAD: /user* should return everything *GET: /user* would except the entity-body.
 
-This could be useful for a number of reasons, e.g. the Content-Length header might tell the client it doesn&#8217;t want to fetch this particular entity-body if its too large.
+This could be useful for a number of reasons, e.g. the Content-Length header might tell the client it doesn't want to fetch this particular entity-body if its too large.
 
 ## Version your API, and never change released features
 
 Each URI should begin with a version number.
 
-  * <span style="line-height: 13px;">/v1/user</span>
+  * /v1/user
 
 Returns:
 
-  * <span style="line-height: 13px;">name</span>
+  * name
   * phonenumber
 
-If you remove anything from the representation being returned for user, or change the rules about what you accept, you need to increase the version number &#8211; don&#8217;t just change the current representation.
+If you remove anything from the representation being returned for user, or change the rules about what you accept, you need to increase the version number - don't just change the current representation.
 
-  * <span style="line-height: 13px;">/v2/user</span>
+  * /v2/user
 
 Returns
 
-  * <span style="line-height: 13px;">name</span>
+  * name
 
 **This prevents your clients from breaking!**
 
 &nbsp;
 
-## Understand Hypermedia application state and why you probably shouldn&#8217;t use it
+## Understand Hypermedia application state and why you probably shouldn't use it
 
 Hypermedia Application State (also known as HATEOAS) is a concept wherein the client uses just one URI, and from that URI is able to deduce how to interact with the API by following links, as one would when using a website. What this means in theory is that the client need not know how to use the API in a certain way, which enables the API to evolve without updating all the clients. [This talk explains it well][20].
 
-This is one part of REST I don&#8217;t agree with for most situations, although it is [technically part of having a true REST API][21].
+This is one part of REST I don't agree with for most situations, although it is [technically part of having a true REST API][21].
 
 The concept is great in theory, but it poses the following issues:
 
-  * At least 2 API calls are needed to perform any task, one to identify how to perform the task, and then the one to actually do it &#8211; which means **more data being transferred**, and **more time taken** to get the data. This is **terrible for mobile**, especially as the signal could be lost in between asking how to perform the task, and actually doing it.
+  * At least 2 API calls are needed to perform any task, one to identify how to perform the task, and then the one to actually do it - which means **more data being transferred**, and **more time taken** to get the data. This is **terrible for mobile**, especially as the signal could be lost in between asking how to perform the task, and actually doing it.
   * You should not use JSON to run this type of API, and JSON is the most efficient way of passing information to clients
   * This is not a common way of consuming an API, so it creates complexity for the client developers, which could cause the development to **take longer**, or **put people off** using the API
   * There is still lots of information the client needs to know about the API in order to respond to it and navigate it, so its not true separation of concerns anyway
 
-Ultimately what this does is put the needs of the developers over that of the users. It places **theory over practicality**. No other aspect of REST does this, and that is why this is the one thing I don&#8217;t recommend, and [neither does the creator of Ruby on Rails][22], [nor Michael Bleigh][23]. [Others do][24], and its a big debate area. Understand it and make your own choices.
+Ultimately what this does is put the needs of the developers over that of the users. It places **theory over practicality**. No other aspect of REST does this, and that is why this is the one thing I don't recommend, and [neither does the creator of Ruby on Rails][22], [nor Michael Bleigh][23]. [Others do][24], and its a big debate area. Understand it and make your own choices.
 
 ## Next steps
 
-### Learn more about API&#8217;s
+### Learn more about API's
 
 The best book you can read on this subject is the REST bible: [RESTful Web Services, by Leonard Richards][25], a [Kindle edition is also available][26].
 
-### Get outside help with your API&#8217;s
+### Get outside help with your API's
 
-If you&#8217;ve enjoyed this article and have an API project you&#8217;d like help with, I may be available as a consultant on your project. I&#8217;ve built REST API&#8217;s for mobile apps, and worked with Tesco on the early versions of their (non REST) API as a mobile developer. I learned much from this experience, and have both made, and seen, many of the issues that can occur from not following the above guidelines. My business partner and our CTO [James McCarthy][27] has over 20 years experience building back-end systems and API&#8217;s for organisations such as AMEX and may also be available.
+If you've enjoyed this article and have an API project you'd like help with, I may be available as a consultant on your project. I've built REST API's for mobile apps, and worked with Tesco on the early versions of their (non REST) API as a mobile developer. I learned much from this experience, and have both made, and seen, many of the issues that can occur from not following the above guidelines. My business partner and our CTO [James McCarthy][27] has over 20 years experience building back-end systems and API's for organisations such as AMEX and may also be available.
 
 To hire one of us, [check out the contact page][28].
 

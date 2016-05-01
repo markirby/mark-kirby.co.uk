@@ -22,17 +22,17 @@ The technique was based on [this article at 99u][1], who based it on [this arti
   * Work 90 mins
   * Done, to relax for the evening
 
-## Isn&#8217;t this a very short day?
+## Isn't this a very short day?
 
 This totals a **6 hour work day **but it is focused work, and this is the most productive work.
 
 In the breaks, I have been catching up with the team, chat, walk, fetching a coffee, all the things that normally interrupt the day constantly and make up the remaining hours.
 
-In elapsed time its a longer day (say 9 &#8211; 6) but more evenly spread.
+In elapsed time its a longer day (say 9 - 6) but more evenly spread.
 
 ## What about email?
 
-In a 90 min block I define what I plan to achieve, and then either deal with emails at the start or end of the block. If a task comes from and email I&#8217;ll add it to the list and pick it up in the block.
+In a 90 min block I define what I plan to achieve, and then either deal with emails at the start or end of the block. If a task comes from and email I'll add it to the list and pick it up in the block.
 
 **Key point: Define what you plan to achieve within a block at the start, and stick to the plan**
 

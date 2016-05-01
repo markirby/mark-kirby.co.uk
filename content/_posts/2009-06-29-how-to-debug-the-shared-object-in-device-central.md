@@ -10,33 +10,33 @@ dsq_thread_id:
 categories:
   - tutorial
 ---
-Here&#8217;s a quick tutorial explaining how to inspect and debug the shared object created on device central when running tests on Flash Lite apps. Its not simple and took me some work to figure out. If you know a better way, please let me know.
+Here's a quick tutorial explaining how to inspect and debug the shared object created on device central when running tests on Flash Lite apps. Its not simple and took me some work to figure out. If you know a better way, please let me know.
 
 This tutorial is aimed at OS X 10.5 users, with Device Central CS4.
 
-## 1 &#8211; Get a capable unarchiver
+## 1 - Get a capable unarchiver
 
-You need a file unarchiver which can cope with .cpgz files. The only one I could find was [File Juicer][1] which costs around $12 &#8211; if anyone finds a free one, let me know.
+You need a file unarchiver which can cope with .cpgz files. The only one I could find was [File Juicer][1] which costs around $12 - if anyone finds a free one, let me know.
 
-## 2 &#8211; Extract the Shared Object file
+## 2 - Extract the Shared Object file
 
-Navigate to your home folder and &#8220;Library/Application Support/Adobe/Adobe Device Central CS4&#8243;.
+Navigate to your home folder and 'Library/Application Support/Adobe/Adobe Device Central CS4&#8243;.
 
 Locate the file named storageObjects.bin and drag it onto the File Juicer icon in your apps.
 
-A folder should appear named &#8220;Storage Objects Juice&#8221;, containing a folder named &#8220;txt&#8221;, containing a file called something like StorageObject(xx% copy)-1.txt &#8211; this is the file you&#8217;ll need.
+A folder should appear named 'Storage Objects Juice&#8221;, containing a folder named 'txt&#8221;, containing a file called something like StorageObject(xx% copy)-1.txt - this is the file you'll need.
 
-## 3 &#8211; Interpreting the StorageObject file
+## 3 - Interpreting the StorageObject file
 
 Open the txt file with your editor of choice. You will see likely see lots of text, expand the text editor to fill your screen to make things easier.
 
 This file contains reference to all saved shared objects, so to see the latest you need to be at the bottom of the file.
 
-Look for codes resembling &#8220;B81FA49052AAA2BD750992BCFD03478D 8144600B02252A799C14CCE2BC9F50B6 ø TCSO &#8221; &#8211; this appears to be the delimiter between shared object sessions. 
+Look for codes resembling 'B81FA49052AAA2BD750992BCFD03478D 8144600B02252A799C14CCE2BC9F50B6 ø TCSO &#8221; - this appears to be the delimiter between shared object sessions. 
 
 Directly following each of delimiter you will find the name of your shared object, the name of the shared object element, and any data saved. 
 
-The layout isn&#8217;t great, line breaks are seemingly random, and its clear this file was not meant for human consumption. Until Adobe add a Shared Object inspector to Device Central, its all we got though, as far as I know.
+The layout isn't great, line breaks are seemingly random, and its clear this file was not meant for human consumption. Until Adobe add a Shared Object inspector to Device Central, its all we got though, as far as I know.
 
 Anyone got an easier method?
 

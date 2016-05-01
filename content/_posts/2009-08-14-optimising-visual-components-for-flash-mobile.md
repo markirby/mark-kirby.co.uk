@@ -9,13 +9,13 @@ dsq_thread_id:
 categories:
   - post
 ---
-I&#8217;ve been working on some a visual component for a flash mobile app, and thought I&#8217;d use it to give you a quick case study on how important it is to optimise everything for mobile. Although this example came from an app for Flash Mobile and Flash Lite, the same problem is suffered by iPhone devs, and anyone developing mobile content.
+I've been working on some a visual component for a flash mobile app, and thought I'd use it to give you a quick case study on how important it is to optimise everything for mobile. Although this example came from an app for Flash Mobile and Flash Lite, the same problem is suffered by iPhone devs, and anyone developing mobile content.
 
-## The component &#8211; a list of data
+## The component - a list of data
 
-I&#8217;m trying create a list of data which can be navigated by pressing up and down on a nav pad. Each time you navigate, the next item in the list comes into view. You can only see one item at a time.
+I'm trying create a list of data which can be navigated by pressing up and down on a nav pad. Each time you navigate, the next item in the list comes into view. You can only see one item at a time.
 
-## The intensive option &#8211; a basic list
+## The intensive option - a basic list
 
 The first time I did this, I created a long list of data, and showed the first item. Pressing up and down simply moved the list up and down as this diagram demonstrates:
 
@@ -24,9 +24,9 @@ The first time I did this, I created a long list of data, and showed the first i
 There are a couple of issues with this:
 
   * Its uses up a lot of memory as all the list items have to be attached to the stage from the beginning
-  * You can&#8217;t have lists looping round, you can only go to each end
+  * You can't have lists looping round, you can only go to each end
 
-## The improved option &#8211; reusing movieclips
+## The improved option - reusing movieclips
 
 As the following diagram will hopefully explain, there is another way. You can have just 3 movieclips, and change the position and content of each as required. This saves memory as you only have 3 movieclips on the stage per component and you can loop round and round.
 

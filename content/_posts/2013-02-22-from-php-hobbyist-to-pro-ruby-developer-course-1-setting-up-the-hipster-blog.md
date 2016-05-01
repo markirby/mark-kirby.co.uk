@@ -9,7 +9,7 @@ dsq_thread_id:
 categories:
   - post
 ---
-This is the first part of a longer course I&#8217;m developing for an Intern I&#8217;ve hired who we are guiding through the process of becoming a &#8216;pro developer&#8217;. In time these notes will form part of a larger post.
+This is the first part of a longer course I'm developing for an Intern I've hired who we are guiding through the process of becoming a 'pro developer'. In time these notes will form part of a larger post.
 
 ## Ensure you are on a Mac or Linux machine
 
@@ -17,7 +17,7 @@ None of this is going to work if you are using Windows, so the first step is to 
 
 ## Setup a GitHub account
 
-If you don&#8217;t have one, [set up your GitHub account][2], where you can store your code and show it off!
+If you don't have one, [set up your GitHub account][2], where you can store your code and show it off!
 
 Ensure you have set up your .ssh public/private keys, there is [good documentation on GitHub][3].
 
@@ -29,7 +29,7 @@ Ensure you have set up your .ssh public/private keys, there is [good documentati
 
 ## Read the first chapter of The Well-Grounded Rubyist
 
-It helps to have an understanding of where Ruby stores files to enable you to happily install Octopress and its dependencies, so reading the first chapter of our core course text &#8211; The Well Grounded Rubyist will give you that grounding.
+It helps to have an understanding of where Ruby stores files to enable you to happily install Octopress and its dependencies, so reading the first chapter of our core course text - The Well Grounded Rubyist will give you that grounding.
 
 ## Set up RVM
 
@@ -39,14 +39,14 @@ Next you need to set up RVM to manage your gemsets and ruby versions. [First fol
 
 Octopress is blogging platform of choice for the cool kids. It lets you store all your posts in MarkDown and uses Git to keep them versioned. You can host it on Github Pages, Heroku or your own choice of platform.
 
-  * [Follow the standard guide][7]s &#8211; don&#8217;t forget to use RVM to set your gemset location and Ruby version.
-  * Consider using [POW][8] if you haven&#8217;t already
+  * [Follow the standard guide][7]s - don't forget to use RVM to set your gemset location and Ruby version.
+  * Consider using [POW][8] if you haven't already
 
 ## Set up your plugins
 
-I recommend (sign up for an account if you haven&#8217;t already) hooking into:
+I recommend (sign up for an account if you haven't already) hooking into:
 
-  * <span style="line-height: 13px;">Twitter</span>
+  * Twitter
   * Delicious
   * Github
 

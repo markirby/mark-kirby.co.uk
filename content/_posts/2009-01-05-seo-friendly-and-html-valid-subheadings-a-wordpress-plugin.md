@@ -18,11 +18,11 @@ This causes an issue with subheadings when composing your posts. In the category
 
 I created the [SEO friendly and HTML valid subheadings plugin][2] to resolve the issue by replacing subheading tags with the following on pages where the plugin tag is added:
 
-&#8211; H2 into H3  
-&#8211; H3 into H4  
-&#8211; H4 into H5  
-&#8211; H5 into H6  
-&#8211; H6 into P.headingSix
+- H2 into H3  
+- H3 into H4  
+- H4 into H5  
+- H5 into H6  
+- H6 into P.headingSix
 
  [1]: http://ribot.co.uk/
  [2]: http://wordpress.org/extend/plugins/seo-friendly-and-html-valid-subheadings/

@@ -15,7 +15,7 @@ So its well into 2009, and I have yet to complete reviewing the achievements of 
 
 ## Organising BarCamp
 
-I decided to get off my arse and help organise [BarCamp Brighton 3][2] instead of just attend. I&#8217;d never been to a BarCamp before but still managed to raise money from 9 sponsors including MySpace, Yahoo, Guardian and BBC. This covered the costs of food and drink at a successful BarCamp attended by around 120 people held at the university of Sussex in September.
+I decided to get off my arse and help organise [BarCamp Brighton 3][2] instead of just attend. I'd never been to a BarCamp before but still managed to raise money from 9 sponsors including MySpace, Yahoo, Guardian and BBC. This covered the costs of food and drink at a successful BarCamp attended by around 120 people held at the university of Sussex in September.
 
 This task took up most of my spare time over the summer and was much more of a challenge than expected, but it led me to meet a range of interesting people and gave a good feel for the diverse range of companies based in Brighton and London.
 
@@ -23,9 +23,9 @@ This task took up most of my spare time over the summer and was much more of a c
 
 ### WordPress as a CMS at The Werks & BarCamp Brighton
 
-Back in the summer I was invited by Rosie Sherry to give a talk on [WordPress as a CMS][3] at [The Werks][4]. I prepared an hour long presentation which ended up running to 2 hours with questions at an event attended by around 30 people. The main topic was bending WordPress to use as a CMS, and whether or not this was a good idea (the answer of course, it depends on the project). A lively discussion was embedded in the talk as various people put their views across and took the heat off me. To run a 2 hour session where you are the only presenter felt like a bit of a baptism of fire when it comes to public speaking, considering I&#8217;d never spoken at a multi session events before.
+Back in the summer I was invited by Rosie Sherry to give a talk on [WordPress as a CMS][3] at [The Werks][4]. I prepared an hour long presentation which ended up running to 2 hours with questions at an event attended by around 30 people. The main topic was bending WordPress to use as a CMS, and whether or not this was a good idea (the answer of course, it depends on the project). A lively discussion was embedded in the talk as various people put their views across and took the heat off me. To run a 2 hour session where you are the only presenter felt like a bit of a baptism of fire when it comes to public speaking, considering I'd never spoken at a multi session events before.
 
-I reprised the WordPress talk at BarCamp Brighton &#8211; although an early Sunday morning scheduling and relucatance to sell the talk resulted in lower attendance.
+I reprised the WordPress talk at BarCamp Brighton - although an early Sunday morning scheduling and relucatance to sell the talk resulted in lower attendance.
 
 ### LifeHacks at BarCamp London
 
@@ -35,10 +35,10 @@ At BarCamp London I ran a talk and discussion on life hacks on the Saturday afte
 
 Highlights this year of the events I managed to attend included:
 
-  * Carsonified&#8217;s Future of Web Apps and Future of Mobile
-  * BarCamp London 5 and BarCamp Brighton 3
-  * the virtual [HEAD conference][5] organised by Aral Balkan and friends
-  * Highlight event &#8211; ClearLeft and Brighton&#8217;s very own [dConstruct 08][6]. The absence of sales pitches, diverse range of speakers, low cost price and almost TED like range of ideas made this an unmissable event, and one which of all events I attended has the potential to survive this recession and go from strength to strength.
+* Carsonified's Future of Web Apps and Future of Mobile
+* BarCamp London 5 and BarCamp Brighton 3
+* the virtual [HEAD conference][5] organised by Aral Balkan and friends
+* Highlight event - ClearLeft and Brighton's very own [dConstruct 08][6]. The absence of sales pitches, diverse range of speakers, low cost price and almost TED like range of ideas made this an unmissable event, and one which of all events I attended has the potential to survive this recession and go from strength to strength.
 
 ## Improving Brighton Culture and this blog
 
@@ -50,7 +50,7 @@ We also began to get offered free tickets to gigs, films and art previews, thus 
 
 ## Writing for Freelance Advisor
 
-I was invited by Darren Fell of Freelance Advisor to write a monthly column on life hacks &#8211; you can find [all the articles here][8].
+I was invited by Darren Fell of Freelance Advisor to write a monthly column on life hacks - you can find [all the articles here][8].
 
  [1]: http://mark-kirby.co.uk/2009/how-to-quit-your-job-and-start-a-new-life/
  [2]: http://barcampbrighton.org/

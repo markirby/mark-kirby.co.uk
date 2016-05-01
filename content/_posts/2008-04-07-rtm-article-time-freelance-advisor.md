@@ -11,7 +11,7 @@ categories:
 tags:
   - notes
 ---
-Just to let you know I have had a new article posted on Freelance Advisor &#8211; [How to remember everything you need to do with Remember The Milk.][1]
+Just to let you know I have had a new article posted on Freelance Advisor - [How to remember everything you need to do with Remember The Milk.][1]
 
 I need to work on shorter titles, but basically this article is aimed at GTD beginners and gets people into the habit of writing everything down.
 

@@ -15,27 +15,27 @@ This weekend I attended [MobileCamp Brighton][1], thanks to the organisational s
 
 The focus of the event was Mobile, and talks and discussions primarily focused on mobile apps, how to devlop them, platforms we should be aiming for and future potential audiences.
 
-Here are a few interesting snippets of what took place&#8230;
+Here are a few interesting snippets of what took place...
 
 ## Natural UI
 
 Flash Lite developer [Carin Campanario][4] from [TUI][4] showed us an interesting RSS widget which will be running on all Nokia N97 phones. As it is its an interesting design, focused on images rather than text and navigated using a gestural interface.
 
-What was especially interesting however were Carin&#8217;s ideas on using some of the [new Nokia S60m 5th edition API&#8217;s][5] to access the accelerometer and camera.  She proposed turning the device on its side to navigate between items, and turning the device toward and away from you to trigger the text to appear and disappear. When bringing the device toward you the text could zoom in, and when moving it away, zoom out.
+What was especially interesting however were Carin's ideas on using some of the [new Nokia S60m 5th edition API's][5] to access the accelerometer and camera.  She proposed turning the device on its side to navigate between items, and turning the device toward and away from you to trigger the text to appear and disappear. When bringing the device toward you the text could zoom in, and when moving it away, zoom out.
 
-I&#8217;m not sure the technology is ready to manage all of these ideas efficiently, and lots of thought would have to go into not accidentally triggering them, and for who the features are aimed at (users who find it difficult to use touch might be ideal), but these ideas show real innovation.
+I'm not sure the technology is ready to manage all of these ideas efficiently, and lots of thought would have to go into not accidentally triggering them, and for who the features are aimed at (users who find it difficult to use touch might be ideal), but these ideas show real innovation.
 
-One thing I like about ideas such as this is they help the app on the phone to behave more like a natural object, rather than something inside a phone. If we think of each image as a an object, lined up in a row with the others on a supporting structure, when the structure is tipped, the objects will naturally fall. [Sam Machin][6] took this one step further &#8211; proposing that the future of mobile development lies not in simply advancing technologically but in creating natural UI&#8217;s. I fully agree.
+One thing I like about ideas such as this is they help the app on the phone to behave more like a natural object, rather than something inside a phone. If we think of each image as a an object, lined up in a row with the others on a supporting structure, when the structure is tipped, the objects will naturally fall. [Sam Machin][6] took this one step further - proposing that the future of mobile development lies not in simply advancing technologically but in creating natural UI's. I fully agree.
 
 ## Mobile usage in majority world countries
 
-[Priya Prakash][7] &#8211; formerly at Flirtomatic, gave a fascinating talk on mobile use in India. Will be checking out her panel at SXSW for sure. I was especially interested to learn about the blind guys who sit by the road operating as location aware data sources &#8211; you can ask them where the nearest cafe, payphone etc is &#8211; no need for a phone. Another popular behaviour is to leave messages with a local shop keeper and collect yours later &#8211; real life voice mail.
+[Priya Prakash][7] - formerly at Flirtomatic, gave a fascinating talk on mobile use in India. Will be checking out her panel at SXSW for sure. I was especially interested to learn about the blind guys who sit by the road operating as location aware data sources - you can ask them where the nearest cafe, payphone etc is - no need for a phone. Another popular behaviour is to leave messages with a local shop keeper and collect yours later - real life voice mail.
 
-## Encouraging &#8216;normobs&#8217; to use Mobile Apps
+## Encouraging 'normobs' to use Mobile Apps
 
-The night before the event I spoke to a few of my friends about their views on mobile apps. I couldn&#8217;t find anyone who said they would be interested in downloading a mobile app of any kind, as they either weren&#8217;t interested, thought their phones weren&#8217;t good enough, didn&#8217;t know what mobile apps were, or were worried about the data charges.
+The night before the event I spoke to a few of my friends about their views on mobile apps. I couldn't find anyone who said they would be interested in downloading a mobile app of any kind, as they either weren't interested, thought their phones weren't good enough, didn't know what mobile apps were, or were worried about the data charges.
 
-I presented these rough and ready findings to the group, to spark a discussion based around the issue. The general feeling was that uptake in the UK could be increased by making apps more viral, and more easy to download for people without an iPhone or a G1 &#8211; i.e. from the phone, or even by text. Another issue I believe to be a major blocking is networks and app creators not being clearer on what the data charges might be relating to the app. We need to put people at ease.
+I presented these rough and ready findings to the group, to spark a discussion based around the issue. The general feeling was that uptake in the UK could be increased by making apps more viral, and more easy to download for people without an iPhone or a G1 - i.e. from the phone, or even by text. Another issue I believe to be a major blocking is networks and app creators not being clearer on what the data charges might be relating to the app. We need to put people at ease.
 
 ## F**k the iPhone
 

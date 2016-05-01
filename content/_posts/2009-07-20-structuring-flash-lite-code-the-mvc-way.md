@@ -20,13 +20,13 @@ The root of your project could contain the following folders:
   * deploy
   * src
 
-Here&#8217;s more details on each
+Here's more details on each
 
 ### build
 
 The build folder is for your Flash output, generated during the build process.
 
-You can set this folder in Flash CS4 by opening the .fla file and going to : &#8220;File -> Publish settings&#8230;&#8221; in the menu, and then navigating to the build folder to set the file for the Flash type in the popup which comes up.
+You can set this folder in Flash CS4 by opening the .fla file and going to : 'File -> Publish settings&#8230;&#8221; in the menu, and then navigating to the build folder to set the file for the Flash type in the popup which comes up.
 
 The build folders contents should be able to be deleted at any time, and recreated by running the build. Do not keep any source files or the .fla in here!
 
@@ -36,7 +36,7 @@ The deploy folder is a good place to keep your installers, such as the .sis file
 
 ### src
 
-The src folder is the place to keep your source code, that&#8217;s your .fla and related .as files, structured as explained in the following section.
+The src folder is the place to keep your source code, that's your .fla and related .as files, structured as explained in the following section.
 
 ## The source code folder
 
@@ -59,7 +59,7 @@ The structure of src folder will look something like this:
 
 So your .fla file goes into the root of src, alongside a folder structure unique to your company, which will also be reflected in the namespaces you give your classes.
 
-The classes specific to the app go within a folder with the same name as the app, and the classes which can be used in other applications are placed alongside this folder in their own folders. I&#8217;ll go into more detail on the contents of each folder next. 
+The classes specific to the app go within a folder with the same name as the app, and the classes which can be used in other applications are placed alongside this folder in their own folders. I'll go into more detail on the contents of each folder next. 
 
 ### appName
 

@@ -9,25 +9,25 @@ dsq_thread_id:
 categories:
   - post
 ---
-I&#8217;m about to learn yet another new mobile development platform. See if you can guess which one from my latest posts&#8230; I&#8217;ve learned a few languages over the years, and since moving to mobile I&#8217;ve realised there is a standard approach that can be applied to learning any mobile platform. Unlike desktop or web technologies, there are a lack of good books on mobile development platforms, so you&#8217;ll need to consult a wide range of places to get the info you need. It is far better to do this before you start coding an app, so you know the limitations of the platform, and you&#8217;ll need to know what you are looking for as you can&#8217;t read every document and every website.
+I'm about to learn yet another new mobile development platform. See if you can guess which one from my latest posts&#8230; I've learned a few languages over the years, and since moving to mobile I've realised there is a standard approach that can be applied to learning any mobile platform. Unlike desktop or web technologies, there are a lack of good books on mobile development platforms, so you'll need to consult a wide range of places to get the info you need. It is far better to do this before you start coding an app, so you know the limitations of the platform, and you'll need to know what you are looking for as you can't read every document and every website.
 
 Here I shall tell you what to look for. Apply this to your platform of choice.
 
 We will be looking at the following areas:
 
   1. Find the resources available
-  2. Locate and download the tools you&#8217;ll need
-  3. Identify and learn the language you&#8217;ll be coding in
+  2. Locate and download the tools you'll need
+  3. Identify and learn the language you'll be coding in
   4. Identify and learn any frameworks you must use
   5. Identify any libraries or frameworks you could use
-  6. Identify all available device API&#8217;s and find out how you can use them
+  6. Identify all available device API's and find out how you can use them
   7. Get coding!
 
-A caveat: before you start, ensure that your chosen platform is actually suitable for your needs. I won&#8217;t cover that step here, but it should be the very first step.
+A caveat: before you start, ensure that your chosen platform is actually suitable for your needs. I won't cover that step here, but it should be the very first step.
 
 ## Find the resources available
 
-It&#8217;s all too easy to jump into learning a platform and simply rely on the resources you find first in google, the official documentation or the one book you managed to find. Instead, begin by spending a day (yes a whole day, and set the end of the day as your deadlne to stop searching), and just explore. If your not sure where to start, here are the places I look:
+It's all too easy to jump into learning a platform and simply rely on the resources you find first in google, the official documentation or the one book you managed to find. Instead, begin by spending a day (yes a whole day, and set the end of the day as your deadlne to stop searching), and just explore. If your not sure where to start, here are the places I look:
 
   * the platforms developers home page, and work through as many links in each resource linked to from there
   * search google with the platform name and related terms
@@ -35,13 +35,13 @@ It&#8217;s all too easy to jump into learning a platform and simply rely on the 
   * search twitter for people mentioning the platform, many choose to specialise their twitter accounts and mentions links that they find, which in turn can lead to new resources
   * look for events focused on the platform and see if they have published their sessions for free online
 
-Once your done, do us a favour and publish your list so others can jump off your research and crawl even deeper &#8211; I did this very task yesterday,[ my collection of  Windows Phone 7 resources][1] is an example of the kind of range you should be able to find from the get go. You can refine this list as you get deeper in your subject.
+Once your done, do us a favour and publish your list so others can jump off your research and crawl even deeper - I did this very task yesterday,[ my collection of  Windows Phone 7 resources][1] is an example of the kind of range you should be able to find from the get go. You can refine this list as you get deeper in your subject.
 
 You should also set up an RSS feeder to subscribe to the key blogs, news areas and twitter accounts so you can keep on top of the latest developments on a regular basis.
 
-## Locate and download the tools you&#8217;ll need
+## Locate and download the tools you'll need
 
-Each platform will have a set of required installs, and perhaps a choice of IDE&#8217;s for creating your apps.
+Each platform will have a set of required installs, and perhaps a choice of IDE's for creating your apps.
 
 If you have an IDE choice, install them all and try them out with a hello world. Pick the one that works for you and take care to look for:
 
@@ -52,9 +52,9 @@ If you have an IDE choice, install them all and try them out with a hello world.
 
 Even if there is only one IDE available, you should learn how do all the above featuresT.
 
-## Identify and learn the logic language you&#8217;ll be coding in
+## Identify and learn the logic language you'll be coding in
 
-Each platform has a language you&#8217;ll need to learn first, before getting into more specifics of the platform and visuals. This is the language that takes care of the programs logic:
+Each platform has a language you'll need to learn first, before getting into more specifics of the platform and visuals. This is the language that takes care of the programs logic:
 
   * Flash Lite has ActionScript
   * Android, Java
@@ -64,7 +64,7 @@ Each platform has a language you&#8217;ll need to learn first, before getting in
 
 Find the language, go back to your resource list and add further resources for that language. Review each one, find the best ones for you and then run through the following topics in a number of different places.
 
-This is also a good test &#8211; if you can&#8217;t answer all these about your language (or at least know where to look) you don&#8217;t know enough about the language to be as efficient as you could be. If you don&#8217;t understand any of the questions, you don&#8217;t know enough about programming concepts to be as efficient as you could be. Rectify any areas before continuing to be building on a strong base, and to ensure you create a high quality mobile app. It&#8217;s even more important to understand the basics in mobile as performance is such an issue.
+This is also a good test - if you can't answer all these about your language (or at least know where to look) you don't know enough about the language to be as efficient as you could be. If you don't understand any of the questions, you don't know enough about programming concepts to be as efficient as you could be. Rectify any areas before continuing to be building on a strong base, and to ensure you create a high quality mobile app. It's even more important to understand the basics in mobile as performance is such an issue.
 
 ### To get started
 
@@ -81,7 +81,7 @@ This is also a good test &#8211; if you can&#8217;t answer all these about your 
   * What [logical operators][7] are available (AND, NOT, OR)?
   * What, if any, [bitwise operators][8] are available?
   * What are rules around true and false? Does true == 1, does false == 0 etc.
-  * What features do you get for free with the String data type? Popular ones include split, join, concatenate, substring etc. You&#8217;ll need to refer to these regularly.
+  * What features do you get for free with the String data type? Popular ones include split, join, concatenate, substring etc. You'll need to refer to these regularly.
   * What [regex][9] functions does the language come with?
   * How do you declare an [Array][10], and what functions come built-in to work with Arrays? What rules are there around declaring Arrays?
   * Does your language allow you to create custom data types such as [structs][11], and how do you do this?
@@ -144,11 +144,11 @@ The platform will likely come with a set of class libraries you can use, e.g. Wi
 
 ## Identify where you can find additional libraries if you need them
 
-Sometimes the official class libraries aren&#8217;t enough. Developers often create reusable code and release it as open source. Find out where repositarys of extra classes might be found which you can either use in your own projects to save time, or use as a basis for your own custom code. Never trust these libraries in the same way you would the official ones, always ensure you understand the code and have a suite of unit tests for it before you use it. Make sure libraries will work on the platform before you use them, test them on the actual device. Some will be incompatible even though they might work with the base language.
+Sometimes the official class libraries aren't enough. Developers often create reusable code and release it as open source. Find out where repositarys of extra classes might be found which you can either use in your own projects to save time, or use as a basis for your own custom code. Never trust these libraries in the same way you would the official ones, always ensure you understand the code and have a suite of unit tests for it before you use it. Make sure libraries will work on the platform before you use them, test them on the actual device. Some will be incompatible even though they might work with the base language.
 
-## Find out how which device API&#8217;s are available
+## Find out how which device API's are available
 
-Now is the time to specialise. Your chosen platform should give you access to a range of device API&#8217;s such as location, SMS, accelerometer etc. Find out which API&#8217;s are available, and how you might use them. Now you have a good understanding of what is possible with the platform.
+Now is the time to specialise. Your chosen platform should give you access to a range of device API's such as location, SMS, accelerometer etc. Find out which API's are available, and how you might use them. Now you have a good understanding of what is possible with the platform.
 
 ## Look for additional tools
 

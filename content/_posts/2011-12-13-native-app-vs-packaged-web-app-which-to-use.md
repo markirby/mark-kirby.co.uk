@@ -9,9 +9,9 @@ dsq_thread_id:
 categories:
   - post
 ---
-*Update Dec 2014 &#8211; This article is historical, and requires an update to take into account the vastly improved performance of devices since 2011. Cordova is certainly valid solution from a performance perspective, assuming optimisation best practices are followed (another post to come). My points about not emulating native components still stand, mostly for ease of cross platform use (to avoid having one platforms typical UI in another). MK*
+*Update Dec 2014 - This article is historical, and requires an update to take into account the vastly improved performance of devices since 2011. Cordova is certainly valid solution from a performance perspective, assuming optimisation best practices are followed (another post to come). My points about not emulating native components still stand, mostly for ease of cross platform use (to avoid having one platforms typical UI in another). MK*
 
-I&#8217;ve been talking to people about native vs web for years, and don&#8217;t fall down on one single answer. I thought it was time to get these thoughts down on paper. I&#8217;ve framed the discussion around a series of questions you might ask about an app you are developing.
+I've been talking to people about native vs web for years, and don't fall down on one single answer. I thought it was time to get these thoughts down on paper. I've framed the discussion around a series of questions you might ask about an app you are developing.
 
 ## Are you designing an app which could be composed of native interface elements?
 
@@ -27,13 +27,13 @@ If you are designing an app for a phone, I would strongly consider **using** **n
 
 It looks very nice, it could be for Android as much as iPhone, but could also easily be created using well styled native UI elements which would make it easier for users to know what to do and give the app a more familiar feel. What are those bottom 3 tabs for?
 
-Some apps don&#8217;t really need to use native interface elements&#8230;
+Some apps don't really need to use native interface elements...
 
 ## Apps with neutral designs
 
-If you are designing a tablet app you may find yourself designing something which is neutral, more like a website, which doesn&#8217;t use native UI components. On tablet devices apps tend to follow less of a standard UI look, so there is less consistency anyway.
+If you are designing a tablet app you may find yourself designing something which is neutral, more like a website, which doesn't use native UI components. On tablet devices apps tend to follow less of a standard UI look, so there is less consistency anyway.
 
-The [FT web app][3] looks the same on all devices, and doesn&#8217;t lend itself to using native UI elements.
+The [FT web app][3] looks the same on all devices, and doesn't lend itself to using native UI elements.
 
 <img class="alignnone size-medium wp-image-961" title="FT-app" src="http://mark-kirby.co.uk/wp-content/uploads/2011/12/FT-app-300x205.jpg" alt="" width="300" height="205" />
 
@@ -41,7 +41,7 @@ This app can look like this on any device, it uses no common interface elements.
 
 ## Recreating native interface elements with web technologies is a bad idea
 
-Recreating standard UI components in web can lead to the &#8216;**uncanny valley**&#8216; effect, where the app looks native but doesn&#8217;t feel quite right, as [this discussion][4] describes.
+Recreating standard UI components in web can lead to the '**uncanny valley**' effect, where the app looks native but doesn't feel quite right, as [this discussion][4] describes.
 
 ## Native interface elements differ between platforms
 
@@ -59,15 +59,15 @@ Facebook on Windows Phone:
 
 <img class="alignnone size-medium wp-image-964" title="Facebook-Windows-Phone-7" src="http://mark-kirby.co.uk/wp-content/uploads/2011/12/Facebook-Windows-Phone-7-189x300.jpg" alt="" width="189" height="300" />
 
-Each version of the app is consistent with the platform running it, and facebook lends itself to this. You certainly couldn&#8217;t put the iPhone design onto an Android device without it looking fake.
+Each version of the app is consistent with the platform running it, and facebook lends itself to this. You certainly couldn't put the iPhone design onto an Android device without it looking fake.
 
 If you want to develop an app with a consistent UI on the platform running it (and in most cases you should), you need to **redesign the app for every platform**.
 
-There will therefore be **additional CSS work to do on every platform** you want the app to run on, but with web you can share the core code. Even if you don&#8217;t redesign the app for other devices, browser differences mean you may have inconsistencies which will need to be tested for and worked out.
+There will therefore be **additional CSS work to do on every platform** you want the app to run on, but with web you can share the core code. Even if you don't redesign the app for other devices, browser differences mean you may have inconsistencies which will need to be tested for and worked out.
 
 ## Neutral designs work well as packaged web apps
 
-If your app doesn&#8217;t contain any native UI elements (like the FT app) it can easily be produced with web technologies without feeling fake.
+If your app doesn't contain any native UI elements (like the FT app) it can easily be produced with web technologies without feeling fake.
 
 The user has no expectations related to the UI elements you are using, so performance issues are reduced.
 
@@ -75,9 +75,9 @@ It will be easier to create custom UI elements with web technologies than using 
 
 No redesign will be needed when putting the app on other devices, so minimal effort will be needed to target multiple platforms.
 
-## To conclude&#8230;
+## To conclude...
 
-Don&#8217;t recreate native experiences with packaged web apps.
+Don't recreate native experiences with packaged web apps.
 
 Use packaged web apps to create platform neutral experiences that can run across many platforms, none of which resemble the native experience on any single platform.
 
