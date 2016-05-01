@@ -1,0 +1,11 @@
+name = "Markirby"
+license = "MIT"
+licenselink = "//opensource.org/licenses/MIT"
+description = ""
+homepage = ""
+tags = ["blog"]
+features = ["blog"]
+
+[author]
+  name = "markirby"
+  homepage = "//mark-kirby.co.uk"
