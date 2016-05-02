@@ -7,12 +7,6 @@ excerpt: Hints and tips on preparing a talk for a BarCamp. I go through the proc
 url: /2008/how-to-write-a-barcamp-talk/
 dsq_thread_id:
   - 1086898229
-categories:
-  - tutorial
-tags:
-  - barcamp
-  - barcamplondon5
-  - lifehacks
 ---
 I'll be going to BarCamp London 5 this weekend, its Tuesday, so I'd better start preparing my talk. I thought I'd blog the process I'm going through to prepare the talk to help others prepare talks for BarCamp.
 

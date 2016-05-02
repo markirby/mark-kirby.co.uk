@@ -6,8 +6,7 @@ date: 2009-01-05
 url: /2009/seo-friendly-and-html-valid-subheadings-a-wordpress-plugin/
 dsq_thread_id:
   - 1086898129
-categories:
-  - post
+
 ---
 I recently created an SEO friendly WordPress theme for [Ribot][1] which meets the following 2 key SEO requirements:
 

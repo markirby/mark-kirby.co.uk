@@ -6,13 +6,8 @@ date: 2008-10-21
 url: /2008/fowa-london-2008-fail/
 dsq_thread_id:
   - 1086898090
-categories:
-  - post
-tags:
-  - conferences
-  - fowa
-  - fowalondon2008
 ---
+
 
 A couple of weeks ago I attended the [Future of Web Apps Expo London 2008][1]. I have to say, I was rather disappointed by the quality of some of speakers, and felt the event lacked the value for money of certain comparable events. After tweeting this and receiving a response from Gillian Carson, one of the organisers (and top marks to [Carsonified][2] for responding) I thought I'd go into a little more detail here, and mention some of the good points as well.
 

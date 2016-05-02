@@ -6,8 +6,7 @@ date: 2009-09-18
 url: /2009/using-mobile-apps-for-a-better-trip/
 dsq_thread_id:
   - 1086898611
-categories:
-  - post
+
 ---
 I've just got back from a 2 week trip to North America, taking in Seattle, Vancouver and Portland. This is the first time I've really let loose with mobile apps on a trip, abandoning worries about data charges and using a range of iPhone apps. There is no doubt the trip was all the better for having these apps, and I thought I'd discuss how exactly they aided me and highlight the most useful ones.
 

@@ -6,8 +6,7 @@ date: 2009-12-08
 url: /2009/heroes-of-the-mobile-screen-review/
 dsq_thread_id:
   - 1086898115
-categories:
-  - post
+
 ---
 Yesterday I attended the [Heroes of the Mobile Screen][1] conference at the BFI Southbank. This was a conference with a focus on business and strategy within the mobile industry. Here are my thoughts on the day.
 

@@ -6,8 +6,7 @@ date: 2008-11-18
 url: /2008/date-in-a-nice-tone-a-wordpress-plugin/
 dsq_thread_id:
   - 1086898889
-categories:
-  - post
+
 ---
 We made a nice little WordPress plugin at Ribot whilst moving our blog from a bespoke system to a lovely new 2.7 WordPress installation.
 

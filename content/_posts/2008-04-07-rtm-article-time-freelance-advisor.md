@@ -6,10 +6,6 @@ date: 2008-04-07
 url: /2008/rtm-article-time-freelance-advisor/
 dsq_thread_id:
   - 1133958789
-categories:
-  - post
-tags:
-  - notes
 ---
 Just to let you know I have had a new article posted on Freelance Advisor - [How to remember everything you need to do with Remember The Milk.][1]
 

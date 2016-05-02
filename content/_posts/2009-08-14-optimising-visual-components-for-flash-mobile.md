@@ -6,8 +6,7 @@ date: 2009-08-14
 url: /2009/optimising-visual-components-for-flash-mobile/
 dsq_thread_id:
   - 1086898180
-categories:
-  - post
+
 ---
 I've been working on some a visual component for a flash mobile app, and thought I'd use it to give you a quick case study on how important it is to optimise everything for mobile. Although this example came from an app for Flash Mobile and Flash Lite, the same problem is suffered by iPhone devs, and anyone developing mobile content.
 

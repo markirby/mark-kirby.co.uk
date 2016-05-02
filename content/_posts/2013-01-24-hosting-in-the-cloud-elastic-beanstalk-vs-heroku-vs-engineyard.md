@@ -6,8 +6,7 @@ date: 2013-01-24
 url: /2013/hosting-in-the-cloud-elastic-beanstalk-vs-heroku-vs-engineyard/
 dsq_thread_id:
   - 1086896933
-categories:
-  - post
+
 ---
 Three platforms stand out for cloud based hosting - Elastic Beanstalk, Heroku and EngineYard. Here I present my experiences with the three, and thoughts on which might be best to use under various factors.
 

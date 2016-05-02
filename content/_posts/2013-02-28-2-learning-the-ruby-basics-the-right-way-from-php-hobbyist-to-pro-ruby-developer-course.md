@@ -6,8 +6,7 @@ date: 2013-02-28
 url: /2013/2-learning-the-ruby-basics-the-right-way-from-php-hobbyist-to-pro-ruby-developer-course/
 dsq_thread_id:
   - 1110031757
-categories:
-  - post
+
 ---
 This forms part of my 'From PHP hobbyist to pro Ruby developer&#8221; course which I'm trialling at the moment with [Remi][1].
 

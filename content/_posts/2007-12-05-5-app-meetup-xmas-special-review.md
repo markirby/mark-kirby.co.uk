@@ -6,10 +6,6 @@ date: 2007-12-05
 url: /2007/5-app-meetup-xmas-special-review/
 dsq_thread_id:
   - 1086898513
-categories:
-  - post
-tags:
-  - events
 ---
 ## What is £5 app?
 

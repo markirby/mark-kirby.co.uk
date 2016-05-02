@@ -6,8 +6,7 @@ date: 2012-07-20
 url: /2012/flexslider-manual-direction-controls-jquery-plugin/
 dsq_thread_id:
   - 1086898934
-categories:
-  - post
+
 ---
 *Update - Nov 2012 - Thankfully due to a recent update this plugin is no longer needed. *
 

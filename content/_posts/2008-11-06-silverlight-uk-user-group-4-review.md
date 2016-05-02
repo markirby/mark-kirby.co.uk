@@ -6,8 +6,7 @@ date: 2008-11-06
 url: /2008/silverlight-uk-user-group-4-review/
 dsq_thread_id:
   - 1086898851
-categories:
-  - post
+
 ---
 Tonight, (the 5th of November) rather than watch the fireworks, myself and the Ribot team headed up to Microsoft's London offices for the [4th Silverlight UK User Group][1] meetup, one of a series of meetups organised by London based consultancy [Conchango][2]. I thought I'd present my thoughts on tonight's proceedings.
 

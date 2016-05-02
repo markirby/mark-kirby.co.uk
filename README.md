@@ -29,3 +29,16 @@ Design
 * About - linkedin stuff
 * Speaking - speakers bio
 * Contact - contact form wufoo
+
+Create a new post:
+
+    hugo new _posts/2016-05-03-good-to-great.md
+
+Build:
+    
+    rm -rf public/
+    hugo
+    
+Serve:
+
+    hugo server --watch --verbose

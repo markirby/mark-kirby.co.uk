@@ -6,11 +6,9 @@ date: 2011-11-13
 url: /2011/full-frontal-conference-2011-review/
 dsq_thread_id:
   - 1086898882
-categories:
-  - post
-tags:
-  - fullfrontalconf
 ---
+
+
 Last Friday I attended Full Frontal 2011, which turned out to be the best conference I've attended so far.
 
 [<img class="alignnone size-full wp-image-931" title="Full Frontal" src="http://mark-kirby.co.uk/wp-content/uploads/2011/11/6283388978_08f3ef14da_z.jpeg" alt="" width="428" height="428" />][1]

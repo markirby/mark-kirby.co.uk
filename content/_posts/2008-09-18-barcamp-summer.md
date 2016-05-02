@@ -6,11 +6,8 @@ date: 2008-09-17
 url: /2008/barcamp-summer/
 dsq_thread_id:
   - 1086898756
-categories:
-  - post
-tags:
-  - barcampbrighton3
 ---
+
 Back in May I volunteered to help organise BarCamp Brighton 3, subsequently I spent much of the summer looking for sponsors for this fine local event. Along with various local people I managed to get contacts in a range of companies who came on board and helped to sponsor, including Yahoo!, BBC, The Guardian, BT and Vodafone.
 
 It was a fascinating process, and I learnt a lot about raising money for events, the internal structure of large organisations and networking. I met a huge number of people, local and from further afield, as my search for sponsors took me to a huge number of networking events here, and in London.

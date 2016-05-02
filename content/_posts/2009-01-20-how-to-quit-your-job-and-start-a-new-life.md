@@ -6,8 +6,7 @@ date: 2009-01-20
 url: /2009/how-to-quit-your-job-and-start-a-new-life/
 dsq_thread_id:
   - 1325225141
-categories:
-  - post
+
 ---
 I started 2008 working for a small charity in Horsham, a job I was beginning to tire of, and ended it working in my dream job, freelancing for a number of small local companies on the way. This article lists my motivations, achievements and high points of working life during 2008. Next week I'll go through my side projects, and then plans for the year ahead. If you have a blog, why not do the same - its a great way of seeing where you are, what you achieved and a chance to thank a few people who helped you.
 

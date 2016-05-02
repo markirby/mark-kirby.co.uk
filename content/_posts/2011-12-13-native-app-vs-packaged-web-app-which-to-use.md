@@ -6,8 +6,7 @@ date: 2011-12-13
 url: /2011/native-app-vs-packaged-web-app-which-to-use/
 dsq_thread_id:
   - 1086898388
-categories:
-  - post
+
 ---
 *Update Dec 2014 - This article is historical, and requires an update to take into account the vastly improved performance of devices since 2011. Cordova is certainly valid solution from a performance perspective, assuming optimisation best practices are followed (another post to come). My points about not emulating native components still stand, mostly for ease of cross platform use (to avoid having one platforms typical UI in another). MK*
 

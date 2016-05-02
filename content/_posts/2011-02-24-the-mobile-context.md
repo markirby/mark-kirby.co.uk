@@ -6,8 +6,7 @@ date: 2011-02-24
 url: /2011/the-mobile-context/
 dsq_thread_id:
   - 1086898447
-categories:
-  - post
+
 ---
 The mobile context is being discussed a great deal at the moment in regards to mobile web. What does it mean? How can we use it? How can we make assumptions about the context a user is in, based on their device?
 

@@ -6,12 +6,9 @@ date: 2009-07-23
 url: /2009/the-geek-and-tech-scene-in-brighton/
 dsq_thread_id:
   - 1094796691
-categories:
-  - post
-tags:
-  - BNM
-  - brighton
 ---
+
+
 People often ask me how to get involved with the tech scene in Brighton either for social reasons, or to find work. This post should provide a place for me to direct them, and perhaps help anyone else wondering or perhaps even unaware there is such a scene.
 
 Here are my top suggestions for getting involved&#8230;

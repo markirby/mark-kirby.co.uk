@@ -7,9 +7,7 @@ excerpt: "A guide to creating a REST API, which will enable you to build API's i
 url: /2013/creating-a-true-rest-api/
 dsq_thread_id:
   - 1086897402
-categories:
-  - post
-  - highlight
+
 ---
 
 Many API's produced call themselves **RESTful**, but barely cover any of the core principles of REST. REST is a standard you can choose to follow, and many (but not all) will help you to build an API that is efficient, easy to use and highly understandable. Here I highlight all the core principles, and how using them can help you to build an excellent API, which is a rare thing indeed.

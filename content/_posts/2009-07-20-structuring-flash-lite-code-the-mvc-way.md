@@ -7,8 +7,7 @@ excerpt: "Advice on how to structure your Flash and Flash Lite code in an MVC wa
 url: /2009/structuring-flash-lite-code-the-mvc-way/
 dsq_thread_id:
   - 1127827141
-categories:
-  - tutorial
+
 ---
 I recently had a discussion with Thomas Joos on ways of structuring code that conform to basic standards. Taking his ideas on board and combining them with some of my own, I propose this simple structure which can serve as the starting point for a new Flash Lite or Flash project. This is based on the MVC model, and ANT for JAVA.
 

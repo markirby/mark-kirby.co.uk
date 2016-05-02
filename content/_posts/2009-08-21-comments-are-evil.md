@@ -6,8 +6,7 @@ date: 2009-08-21
 url: /2009/comments-are-evil/
 dsq_thread_id:
   - 1086898405
-categories:
-  - post
+
 ---
 I've just finished listening to an [interesting episode][1] of the [Deep Fried Bytes podcast][2] entitled in part 'Why comments are evil&#8221;. In this episode the guest, [Corey Haines][3] (a traveling programmer [living an interesting life][4] which warrants discussion in itself), explains why he believes comments shouldn't be the recommended practice they are often considered, and can be easily abused. Here's a quick summary of his reasoning:
 

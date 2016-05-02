@@ -6,12 +6,6 @@ date: 2008-07-13
 url: /2008/timeboxing/
 dsq_thread_id:
   - 1086898778
-categories:
-  - post
-tags:
-  - agile
-  - lifehack
-  - productivity
 ---
 Over the past few weeks I've been trying to implement timeboxing, an agile technique, wherever possible. I've started to find myself becoming much more productive.
 

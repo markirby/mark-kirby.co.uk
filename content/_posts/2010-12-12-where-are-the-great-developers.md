@@ -6,8 +6,7 @@ date: 2010-12-12
 url: /2010/where-are-the-great-developers/
 dsq_thread_id:
   - 1086898240
-categories:
-  - post
+
 ---
 What makes a great developer? These core competencies, each building on the previous one.
 

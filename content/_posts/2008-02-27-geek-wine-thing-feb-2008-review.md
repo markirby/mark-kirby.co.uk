@@ -6,11 +6,6 @@ date: 2008-02-27
 url: /2008/geek-wine-thing-feb-2008-review/
 dsq_thread_id:
   - 1086898169
-categories:
-  - post
-tags:
-  - events
-  - sussexdigital
 ---
 I attended a wine tasting event tonight&#8230;the geek wine thing. its a wine tasting event aimed at the Brighton tech community, run by [Danny Hope][1] on an occasional basis. The format is, a speaker comes who has specific knowledge of wine, or cider, or some other drink, and there is a tasting along with some education about the drinks being sampled.
 

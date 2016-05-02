@@ -5,8 +5,7 @@ layout: post
 date: 2014-07-31
 excerpt: How working in 90 min blocks with lots of rest increased my productivity
 url: /2014/working-in-90-min-blocks/
-categories:
-  - post
+
 ---
 This week I have been experimenting with working in 90 minute blocks, separated by 30 min and 2 hour breaks. Productivity has gone through the roof.
 

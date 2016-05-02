@@ -6,8 +6,7 @@ date: 2009-02-25
 url: /2009/2008-personal-review-part-2-side-projects/
 dsq_thread_id:
   - 1666884533
-categories:
-  - post
+
 ---
 So its well into 2009, and I have yet to complete reviewing the achievements of 2008. So without further ado, lets summarise.
 

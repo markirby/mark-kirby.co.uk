@@ -6,8 +6,7 @@ date: 2013-02-22
 url: /2013/from-php-hobbyist-to-pro-ruby-developer-course-1-setting-up-the-hipster-blog/
 dsq_thread_id:
   - 1098596036
-categories:
-  - post
+
 ---
 This is the first part of a longer course I'm developing for an Intern I've hired who we are guiding through the process of becoming a 'pro developer'. In time these notes will form part of a larger post.
 

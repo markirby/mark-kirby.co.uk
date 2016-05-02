@@ -6,8 +6,7 @@ date: 2011-02-16
 url: /2011/how-to-learn-any-mobile-development-platform/
 dsq_thread_id:
   - 1224200413
-categories:
-  - post
+
 ---
 I'm about to learn yet another new mobile development platform. See if you can guess which one from my latest posts&#8230; I've learned a few languages over the years, and since moving to mobile I've realised there is a standard approach that can be applied to learning any mobile platform. Unlike desktop or web technologies, there are a lack of good books on mobile development platforms, so you'll need to consult a wide range of places to get the info you need. It is far better to do this before you start coding an app, so you know the limitations of the platform, and you'll need to know what you are looking for as you can't read every document and every website.
 

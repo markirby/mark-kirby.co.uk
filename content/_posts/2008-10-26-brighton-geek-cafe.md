@@ -6,9 +6,8 @@ date: 2008-10-26
 url: /2008/brighton-geek-cafe/
 dsq_thread_id:
   - 1086898802
-categories:
-  - post
 ---
+
 <div class="mceTemp">
   <dl id="attachment_328" class="wp-caption alignnone" style="width: 510px;">
     <dt class="wp-caption-dt">

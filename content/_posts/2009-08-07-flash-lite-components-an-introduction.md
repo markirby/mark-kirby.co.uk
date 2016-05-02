@@ -6,9 +6,8 @@ date: 2009-08-07
 url: /2009/flash-lite-components-an-introduction/
 dsq_thread_id:
   - 1086898156
-categories:
-  - post
 ---
+
 This article takes a look at Flash Lite Components - reusable controls and elements which you can drop into Flash Lite apps. I look at existing techniques, libraries and components as well as some tips on creating your own. My personal reason for this investigation is that at ribot we are working on some visual components for a little app we are creating, and I'd like to find some pointers on how we might be able to craft these in a reusable way. Hopefully you will learn something from this, and comment away at the end to feed back into the conversation.
 
 [<img class="size-full wp-image-561   alignnone" title="Actionscript" src="http://mark-kirby.co.uk/wp-content/uploads/2009/08/2530021664_357b6699b0.jpg" alt="Actionscript" width="360" height="270" />][1]

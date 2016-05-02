@@ -6,11 +6,9 @@ date: 2009-03-04
 url: /2009/mobilecamp-brighton/
 dsq_thread_id:
   - 1441412678
-categories:
-  - post
-tags:
-  - '#mobilecampbrighton'
 ---
+
+
 This weekend I attended [MobileCamp Brighton][1], thanks to the organisational skills of [Dan W][2] and hosted at [The Skiff][3]. It was a great event, and despite not costing a penny the quality of the speakers and topics far outshone those at most paid for industry events.
 
 The focus of the event was Mobile, and talks and discussions primarily focused on mobile apps, how to devlop them, platforms we should be aiming for and future potential audiences.

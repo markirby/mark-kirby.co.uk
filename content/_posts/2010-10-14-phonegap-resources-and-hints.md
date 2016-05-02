@@ -6,8 +6,7 @@ date: 2010-10-14
 url: /2010/phonegap-resources-and-hints/
 dsq_thread_id:
   - 1086898928
-categories:
-  - post
+
 ---
 Here are the key resources and some main points from the PhoneGap talk I gave at Async today.
 

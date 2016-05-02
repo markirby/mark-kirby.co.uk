@@ -7,8 +7,7 @@ excerpt: "Here is a collection of great resources to get you started developing 
 url: /2010/the-best-resources-for-windows-phone-7-development/
 dsq_thread_id:
   - 1086898419
-categories:
-  - post
+
 ---
 Here is a collection of great resources to get you started developing for Windows Phone 7, and to continue doing so. I'll be keeping this post up-to-date over the coming months.
 

@@ -6,10 +6,6 @@ date: 2008-03-11
 url: /2008/setting-up-virtual-hosts-on-os-x-leopard/
 dsq_thread_id:
   - 1086898621
-categories:
-  - tutorial
-tags:
-  - PHP
 ---
 Here is a definitive guide to setting up virtual hosts on OS X, the instructions work on all versions from Leopard to Lion/Mountain Lion.
 

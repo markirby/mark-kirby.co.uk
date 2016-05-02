@@ -6,10 +6,6 @@ date: 2008-05-12
 url: /2008/how-to-create-a-local-copy-of-a-wordpress-site/
 dsq_thread_id:
   - 1086898526
-categories:
-  - tutorial
-tags:
-  - wordpress
 ---
 
 This article explains how you set up a copy of a WordPress site on your computer. This can be very useful if you need to find out what will happen if you do an upgrade, for testing out and playing with plug ins, and for developing WordPress themes.

@@ -6,8 +6,6 @@ date: 2008-07-12
 url: /2008/new-job-and-a-new-site/
 dsq_thread_id:
   - 1369014854
-categories:
-  - post
 ---
 I've just relaunched my blog with a simple clean design, and some very basic features. Over the next few months I hope to add more bits and bobs, to enable this to be a portal connecting all the services I use. Perhaps Flickr integration, delicious links, and some other stuff. For now it doesn't matter - all I want is a place to put some tutorials, and a few notes. The site isn't finished, but it is usable - release early, release often is my moto.
 

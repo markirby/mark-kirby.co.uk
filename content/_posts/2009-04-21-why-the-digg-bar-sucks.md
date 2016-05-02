@@ -6,8 +6,7 @@ date: 2009-04-21
 url: /2009/why-the-digg-bar-sucks/
 dsq_thread_id:
   - 1086898400
-categories:
-  - post
+
 ---
 Digg have just launched a new feature called the Digg bar. To see this in action, put the url digg.com/ in front of any website, e.g. <http://digg.com/http://bbc.co.uk>. What this does is create a shortened URL, like tinyurl et al, and redirects you to that URL. You then see a toolbar embedded in the website which allows you do certain Digg related tasks.
 

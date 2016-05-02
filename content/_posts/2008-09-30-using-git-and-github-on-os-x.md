@@ -7,13 +7,8 @@ excerpt: Instructions on how to install git on OSX, set up an account with githu
 url: /2008/using-git-and-github-on-os-x/
 dsq_thread_id:
   - 1086898781
-categories:
-  - tutorial
-tags:
-  - git
-  - github
-  - osx
 ---
+
 git is an alternative to SVN. I'm just starting out using it, so I'll explain how to install it and use the github repository. Once I've got into it more deeply, I'll go into detail on the pro's and con's.
 
 This article is going to be most useful if someone has just asked you to start contributing to an existing project located on github. It covers everything you will need to connect to the project and start editing.

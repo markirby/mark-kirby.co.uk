@@ -6,8 +6,7 @@ date: 2011-10-31
 url: /2011/the-developers-manifesto/
 dsq_thread_id:
   - 1086898913
-categories:
-  - post
+
 ---
 The developers manifesto I've created here are a set of coding guidelines that me and the [development team I work with][1] believe will lead to high quality, easily readable code. Code written not for you to read, but for someone else to read. It is the result of several weeks of meetings, reading a number of books, and years of making these mistakes. I am publishing it here first so the team have an online resource to refer to, and to inspire others to create great code also.
 

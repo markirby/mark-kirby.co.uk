@@ -7,8 +7,7 @@ excerpt: "Multivariate testing isn't always a good thing. It comes with many pit
 url: /2013/why-multivariate-testing-isnt-always-a-good-thing/
 dsq_thread_id:
   - 1089773761
-categories:
-  - post
+
 ---
 I've been thinking about multivariate testing lately, and have decided to collate my thoughts on why it's no silver bullet, comes with many risks and should be used only in the right circumstances.
 

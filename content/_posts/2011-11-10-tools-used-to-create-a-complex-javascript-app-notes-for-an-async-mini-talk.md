@@ -6,8 +6,7 @@ date: 2011-11-10
 url: /2011/tools-used-to-create-a-complex-javascript-app-notes-for-an-async-mini-talk/
 dsq_thread_id:
   - 1101834527
-categories:
-  - post
+
 ---
 I've spent the last 6 months leading the team who worked with Tesco on the development of the [Tesco Food app][1] in the Chrome Web Store. If there is time I hope to give a quick 5 min talk at Brighton's Async group for the [International Show and Tell][2] this week, these are the notes for that talk.
 

@@ -7,8 +7,7 @@ excerpt: How to access the shared object in Device Central for debugging purpose
 url: /2009/how-to-debug-the-shared-object-in-device-central/
 dsq_thread_id:
   - 1106119756
-categories:
-  - tutorial
+
 ---
 Here's a quick tutorial explaining how to inspect and debug the shared object created on device central when running tests on Flash Lite apps. Its not simple and took me some work to figure out. If you know a better way, please let me know.
 

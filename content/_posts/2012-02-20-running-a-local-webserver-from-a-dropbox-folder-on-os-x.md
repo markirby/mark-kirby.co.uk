@@ -6,8 +6,7 @@ date: 2012-02-20
 url: /2012/running-a-local-webserver-from-a-dropbox-folder-on-os-x/
 dsq_thread_id:
   - 1087588675
-categories:
-  - post
+
 ---
 I wrote a article a few years back on [setting up virtual hosts on OS X][1] so you can have lots of urls pointing to different folders on your mac, for testing websites. A good practice I have found is to run this folder out of Dropbox, so even if you haven't committed changes to a remote repository your work is always saved and backed up. To do this, there are a couple of extra steps you need to take, so I am writing this article here, do read the old one first to get the basics set up, and then come here for the updates.
 

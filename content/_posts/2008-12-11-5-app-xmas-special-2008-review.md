@@ -6,11 +6,9 @@ date: 2008-12-11
 url: /2008/5-app-xmas-special-2008-review/
 dsq_thread_id:
   - 1119711374
-categories:
-  - post
-tags:
-  - £5app
 ---
+
+
 Last night the 2008 [£5 app][1] xmas special was held at [The Werks][2]. £5 app is a great local event which runs every 3 months where apps and side projects are demoed. For this special, the theme was games, or 'interactive fun techie stuff&#8221;.
 
 For the first half of the event, former TV presenter Aleks Krotoski, now of Guardian Online, spoke about a text game she had developed. I couldn't make the talk however, since myself and Jerome Ribot were out the back preparing the mulled wine as Ribot sponsored the event. As well as mulled wine, Antony brought along his 'rustic plank' and covered it with mince pies.
