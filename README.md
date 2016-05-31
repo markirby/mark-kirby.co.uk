@@ -5,6 +5,14 @@ cd themes/_mark && gulp watch
 
 Steps
 
+- Content
+  - Home (not sure)
+  - About (bio, timeline, projects, skills)
+  - Articles
+  - Speaking (list of talks given, dates, content, link to slides, call to action - form)
+  - Teaching (training materials hub)
+  - Contact (wufoo form, why you might contact etc)
+
 - Design the blog with
   - Create a sample post showing all the different text types (See paul)
   - P (text)
@@ -35,10 +43,10 @@ Create a new post:
     hugo new _posts/2016-05-03-good-to-great.md
 
 Build:
-    
+
     rm -rf public/
     hugo
-    
+
 Serve:
 
     hugo server --watch --verbose
