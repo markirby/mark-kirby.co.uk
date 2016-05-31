@@ -36,7 +36,7 @@ Design
 * Home - blog posts, easy to contact and find me
 * About - linkedin stuff
 * Speaking - speakers bio
-* Contact - contact form wufoo
+* Contact - contact form wufoo - done
 
 Create a new post:
 
