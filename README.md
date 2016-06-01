@@ -5,6 +5,20 @@ cd themes/_mark && gulp watch
 
 Steps
 
+* Articles index page, all articles, divided by year
+* Home page - latest 5 articles tagged with home, overview inspired by others
+* Create sample post with
+  - P (text)
+  - Bullets
+  - Headings throughout
+  - Images
+  - Code rendering plugin
+* Identify grid and vertical rhythm framework, font, and implement
+* Header and top menu design
+* Footer design
+* Google analytics
+* Twitter/facebook likes
+
 - Content
   - Home (not sure)
   - About (bio, timeline, projects, skills)
@@ -15,13 +29,6 @@ Steps
 
 - Design the blog with
   - Create a sample post showing all the different text types (See paul)
-  - P (text)
-  - Bullets
-  - Headings throughout
-  - Images
-  - Code rendering plugin
-  - Home page
-  - Article
   - Google analytics
   - Comments?
   - Set up about page (perhaps with Linkedin)
