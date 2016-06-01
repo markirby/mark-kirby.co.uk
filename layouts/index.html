@@ -1,21 +1,22 @@
 {{ partial "head.html" . }}
-<main class="posts">
-  <article class="post">
-    {{ range .Data.Pages.GroupByDate "2006" }}
-    <h2>{{ .Key }}</h2>
-        {{ range .Pages }}
-          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-          <p>
-            {{if .Params.excerpt}}
-              {{ .Params.excerpt }}
-            {{ else }}
-              {{ .Summary }}
-            {{ end }}
-            <br />
-            <a href="{{ .Permalink }}">Continue reading...</a>
-          </p>
-        {{ end }}
+<p>Popular posts:</p>
+<section>
+    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+          {{ range $key, $value := $taxonomy }}
+                {{ range $value.Pages }}
+                <article class="post">
+                  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                  <p>
+                    {{if .Params.excerpt}}
+                      {{ .Params.excerpt }}
+                    {{ else }}
+                      {{ .Summary }}
+                    {{ end }}
+                    <a href="{{ .Permalink }}">Continue reading...</a>
+                  </p>
+                </article>
+                {{ end }}
+          {{ end }}
     {{ end }}
-  </article>
-</main>
+</section>
 {{ partial "foot.html" . }}

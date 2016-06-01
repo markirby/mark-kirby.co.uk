@@ -6,6 +6,8 @@ date: 2013-01-18
 url: /2013/how-to-authenticate-apis-http-basic-vs-http-digest/
 dsq_thread_id:
   - 1088414229
+tags:
+  - popular
 
 ---
 
@@ -13,7 +15,7 @@ A comparison of the pros and cons of the three main secure ways of authenticatin
 
   * HTTP Basic Access Authentication over SSL
   * HTTP Digest
-
+<!--more-->
 The answer, [as usual][1], is it depends, but if you can force the server to use SSL, or are creating a private API, then its Basic.
 
 ## HTTP Basic Access Authentication over SSL
