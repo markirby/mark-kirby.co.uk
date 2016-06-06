@@ -1,12 +1,10 @@
-hugo server --theme=_mark
-hugo server --theme=huggle -w
-
-cd themes/_mark && gulp watch
+    gulp
 
 Steps
 
 * Articles index page, all articles, divided by year
 * Home page - latest 5 articles tagged with home, overview inspired by others
+
 * Create sample post with
   - P (text)
   - Bullets
