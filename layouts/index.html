@@ -1,0 +1,22 @@
+{{ partial "head.html" . }}
+<p>Popular posts:</p>
+<section>
+    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+          {{ range $key, $value := $taxonomy }}
+                {{ range $value.Pages }}
+                <article class="post">
+                  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                  <p>
+                    {{if .Params.excerpt}}
+                      {{ .Params.excerpt }}
+                    {{ else }}
+                      {{ .Summary }}
+                    {{ end }}
+                    <a href="{{ .Permalink }}">Continue reading...</a>
+                  </p>
+                </article>
+                {{ end }}
+          {{ end }}
+    {{ end }}
+</section>
+{{ partial "foot.html" . }}
