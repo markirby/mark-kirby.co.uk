@@ -4,7 +4,7 @@ author: Mark Kirby
 layout: post
 date: 2016-06-02
 excerpt:
-url: /2016/how-I-rebuilt-my-website-in-the-modern-age
+url: /2016/anatomy-of-a-website-in-2016
 ---
 
 I'm rebuilding this website. Its 2016. So, no more WordPress.

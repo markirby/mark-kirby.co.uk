@@ -55,3 +55,8 @@ Build:
 Serve:
 
     hugo server --watch --verbose
+    
+Deploy:
+
+    cd Sites
+    rake markirby_new:deploy
