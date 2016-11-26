@@ -1,7 +1,66 @@
-body {
-  font-family: 'Noto Serif', serif;
+@import 'normalize';
+@import 'verticalrhythm';
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+.container {
+  margin: 0 2%;
+}
+.page-title, .site-title, h1, h2, h3, h4 {
+  color: #323232;
 }
 
-h1, h2, h3 {
-  font-family: 'Noto Sans', sans-serif;
+.site-title a {
+  text-decoration: none;
+  color: #4C4C4C;
+  font-weight: bold;
+}
+.page-title a, a {
+  text-decoration: none;
+  color: #518CC1; 
+}
+.site-title a:hover, .page-title a:hover, a:hover {
+  color: #4195D8;
+}
+
+// Menu
+/*Strip the ul of padding and list styling*/
+.menu {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+/*Create a horizontal list with spacing*/
+.menu li {
+	display:inline-block;
+	float: left;
+	margin-right: 1px;
+}
+
+/*Style for menu links*/
+.menu li a {
+	display:block;
+	min-width:20px;
+  margin: 0 10px 0 0;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+
+/*Hover state for top level links*/
+.menu li:hover a {
 }

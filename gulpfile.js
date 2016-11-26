@@ -9,9 +9,8 @@ reload = require("browser-sync").reload;
 
 
 function hugo() {
-    var cmd = 'hugo --buildDrafts=true --verbose=true --baseUrl="http://localhost:3000/"';
-    var result = exec('rm -r -f ./public', {encoding: 'utf-8'});
-    var result = exec(cmd, {encoding: 'utf-8'});
+    var result = exec('rm -rf public/', {encoding: 'utf-8'});
+    var result = exec('hugo', {encoding: 'utf-8'});
     gutil.log('hugo: \n' + result);
 }
 

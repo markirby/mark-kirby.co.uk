@@ -1,11 +1,11 @@
 {{ partial "head.html" . }}
-<p>Popular posts:</p>
+<h2>Top articles:</h2>
 <section>
     {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
           {{ range $key, $value := $taxonomy }}
                 {{ range $value.Pages }}
                 <article class="post">
-                  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                  <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                   <p>
                     {{if .Params.excerpt}}
                       {{ .Params.excerpt }}

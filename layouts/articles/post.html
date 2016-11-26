@@ -1,7 +1,7 @@
 {{ partial "head.html" . }}
 <main>
 <article class="post">
-  <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+  <h1 class="page-title">{{ .Title }}</h1>
   {{ .Content }}
   <p class="small gray"><time datetime="{{ .Date.Format "2006-01-30" }}">{{ .Date.Format "Jan 01, 2006" }}</time></p>
   {{ partial "disqus.html" . }}
