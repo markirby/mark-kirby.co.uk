@@ -1,8 +1,7 @@
 ---
 title: About Mark Kirby
-author: Mark Kirby
-layout: page
-date: 2006-11-01
+type: "page"
+layout: "about"
 ---
 I'm based in Brighton, spending my days as Technical Lead at [Matchbox Mobile][1], an awesome company specialising in mobile and embedded systems.
 

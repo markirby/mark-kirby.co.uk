@@ -1,0 +1,17 @@
+{{ partial "head.html" . }}
+<div class="timeline-container">
+  <h1 id="title">About me</h1>
+  <section class="timeline">
+    <ul>
+      {{ range .Data.Pages.Reverse }}
+      <li>
+        <div>
+          <time>{{ .Title }}</time>
+          {{ .Content }}
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+</div>
+{{ partial "foot.html" . }}

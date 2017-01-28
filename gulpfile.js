@@ -10,7 +10,7 @@ reload = require("browser-sync").reload;
 
 function hugo() {
     var result = exec('rm -rf public/', {encoding: 'utf-8'});
-    var result = exec('hugo', {encoding: 'utf-8'});
+    var result = exec('hugo --verbose', {encoding: 'utf-8'});
     gutil.log('hugo: \n' + result);
 }
 
