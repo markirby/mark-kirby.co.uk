@@ -6,7 +6,7 @@ date: 2013-01-18
 url: /2013/how-to-authenticate-apis-http-basic-vs-http-digest/
 dsq_thread_id:
   - 1088414229
-tags:
+tags: 
 
 ---
 
